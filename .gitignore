@@ -1,3 +1,10 @@
+venv/
+__pycache__/
+data/book_embeddings.index
+backend/config.py
+.env
+backend/__pycache__
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
