@@ -11,7 +11,7 @@ def chat_with_model(query):
     context = get_relevant_text(query)
 
     response = client.chat.completions.create(
-        model="mixtral-8x7b-32768",
+        model="llama3-70b-8192",
         messages=[
             {"role": "system", "content": "You are a Harry Potter expert and have equal knowledge of all books and must only answer using official book content."},
             {"role": "system", "content": f"Relevant book passage: {context}"},
